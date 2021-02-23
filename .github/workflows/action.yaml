@@ -1,6 +1,6 @@
 name: API Manager Build with Test
 
-on: [push, pull_request]
+on: [push]
 
 jobs:
   build-without-tests:

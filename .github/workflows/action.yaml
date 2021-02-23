@@ -22,7 +22,7 @@ jobs:
     - name: Checkout Product-APIM 1
       uses: actions/checkout@v1
       with: 
-        repository: malinthaprasan/product-apim
+        repository: bhathiya/product-apim
         ref: refs/heads/master
     - name: Build Product-Apim with Maven
       run: mvn clean install --file ../product-apim/pom.xml
@@ -36,7 +36,7 @@ jobs:
     - name: Checkout Product-APIM 1
       uses: actions/checkout@v1
       with: 
-        repository: malinthaprasan/product-apim
+        repository: bhathiya/product-apim
         ref: refs/heads/master
     - name: Build Product-Apim with Maven
       run: mvn clean install --file ../product-apim/pom.xml
@@ -50,7 +50,7 @@ jobs:
     - name: Checkout Product-APIM 1
       uses: actions/checkout@v1
       with: 
-        repository: malinthaprasan/product-apim
+        repository: bhathiya/product-apim
         ref: refs/heads/master
     - name: Build Product-Apim with Maven
       run: mvn clean install --file ../product-apim/pom.xml
@@ -64,7 +64,7 @@ jobs:
     - name: Checkout Product-APIM 1
       uses: actions/checkout@v1
       with: 
-        repository: malinthaprasan/product-apim
+        repository: bhathiya/product-apim
         ref: refs/heads/master
     - name: Build Product-Apim with Maven
       run: mvn clean install --file ../product-apim/pom.xml
@@ -78,7 +78,7 @@ jobs:
     - name: Checkout Product-APIM 1
       uses: actions/checkout@v1
       with: 
-        repository: malinthaprasan/product-apim
+        repository: bhathiya/product-apim
         ref: refs/heads/master
     - name: Build Product-Apim with Maven
       run: mvn clean install --file ../product-apim/pom.xml
@@ -92,7 +92,7 @@ jobs:
     - name: Checkout Product-APIM 1
       uses: actions/checkout@v1
       with: 
-        repository: malinthaprasan/product-apim
+        repository: bhathiya/product-apim
         ref: refs/heads/master
     - name: Build Product-Apim with Maven
       run: mvn clean install --file ../product-apim/pom.xml
@@ -106,7 +106,7 @@ jobs:
     - name: Checkout Product-APIM 1
       uses: actions/checkout@v1
       with: 
-        repository: malinthaprasan/product-apim
+        repository: bhathiya/product-apim
         ref: refs/heads/master
     - name: Build Product-Apim with Maven
       run: mvn clean install --file ../product-apim/pom.xml
@@ -120,7 +120,7 @@ jobs:
     - name: Checkout Product-APIM 2
       uses: actions/checkout@v1
       with: 
-        repository: malinthaprasan/product-apim
+        repository: bhathiya/product-apim
         ref: refs/heads/master
     - name: Build Product-Apim with Maven
       run: mvn clean install --file ../product-apim/pom.xml
@@ -134,7 +134,7 @@ jobs:
     - name: Checkout Product-APIM 2
       uses: actions/checkout@v1
       with: 
-        repository: malinthaprasan/product-apim
+        repository: bhathiya/product-apim
         ref: refs/heads/master
     - name: Build Product-Apim with Maven
       run: mvn clean install --file ../product-apim/pom.xml
@@ -148,7 +148,7 @@ jobs:
     - name: Checkout Product-APIM 2
       uses: actions/checkout@v1
       with: 
-        repository: malinthaprasan/product-apim
+        repository: bhathiya/product-apim
         ref: refs/heads/master
     - name: Build Product-Apim with Maven
       run: mvn clean install --file ../product-apim/pom.xml
@@ -162,7 +162,7 @@ jobs:
     - name: Checkout Product-APIM 2
       uses: actions/checkout@v1
       with: 
-        repository: malinthaprasan/product-apim
+        repository: bhathiya/product-apim
         ref: refs/heads/master
     - name: Build Product-Apim with Maven
       run: mvn clean install --file ../product-apim/pom.xml
@@ -176,7 +176,7 @@ jobs:
     - name: Checkout Product-APIM 2
       uses: actions/checkout@v1
       with: 
-        repository: malinthaprasan/product-apim
+        repository: bhathiya/product-apim
         ref: refs/heads/master
     - name: Build Product-Apim with Maven
       run: mvn clean install --file ../product-apim/pom.xml
@@ -190,7 +190,7 @@ jobs:
     - name: Checkout Product-APIM 2
       uses: actions/checkout@v1
       with: 
-        repository: malinthaprasan/product-apim
+        repository: bhathiya/product-apim
         ref: refs/heads/master
     - name: Build Product-Apim with Maven
       run: mvn clean install --file ../product-apim/pom.xml
@@ -204,7 +204,7 @@ jobs:
     - name: Checkout Product-APIM 2
       uses: actions/checkout@v1
       with: 
-        repository: malinthaprasan/product-apim
+        repository: bhathiya/product-apim
         ref: refs/heads/master
     - name: Build Product-Apim with Maven
       run: mvn clean install --file ../product-apim/pom.xml
@@ -218,7 +218,7 @@ jobs:
     - name: Checkout Product-APIM 2
       uses: actions/checkout@v1
       with: 
-        repository: malinthaprasan/product-apim
+        repository: bhathiya/product-apim
         ref: refs/heads/master
     - name: Build Product-Apim with Maven
       run: mvn clean install --file ../product-apim/pom.xml
@@ -232,7 +232,7 @@ jobs:
     - name: Checkout Product-APIM 2
       uses: actions/checkout@v1
       with: 
-        repository: malinthaprasan/product-apim
+        repository: bhathiya/product-apim
         ref: refs/heads/master
     - name: Build Product-Apim with Maven
       run: mvn clean install --file ../product-apim/pom.xml
@@ -246,7 +246,7 @@ jobs:
     - name: Checkout Product-APIM 2
       uses: actions/checkout@v1
       with: 
-        repository: malinthaprasan/product-apim
+        repository: bhathiya/product-apim
         ref: refs/heads/master
     - name: Build Product-Apim with Maven
       run: mvn clean install --file ../product-apim/pom.xml
@@ -260,7 +260,7 @@ jobs:
     - name: Checkout Product-APIM 2
       uses: actions/checkout@v1
       with: 
-        repository: malinthaprasan/product-apim
+        repository: bhathiya/product-apim
         ref: refs/heads/master
     - name: Build Product-Apim with Maven
       run: mvn clean install --file ../product-apim/pom.xml
@@ -274,7 +274,7 @@ jobs:
     - name: Checkout Product-APIM 2
       uses: actions/checkout@v1
       with: 
-        repository: malinthaprasan/product-apim
+        repository: bhathiya/product-apim
         ref: refs/heads/master
     - name: Build Product-Apim with Maven
       run: mvn clean install --file ../product-apim/pom.xml

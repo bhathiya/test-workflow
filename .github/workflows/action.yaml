@@ -83,7 +83,7 @@ jobs:
     - name: Build Product-Apim with Maven
       run: mvn clean install --file ../product-apim/pom.xml
       env:
-        PRODUCT_APIM_TESTS: apim-CORS-tests
+        PRODUCT_APIM_TESTS: apim-CORS-tests,rest-api-tests,apim-mediation-tests
 
   build-segment-7:
     runs-on: ubuntu-latest
@@ -97,36 +97,8 @@ jobs:
     - name: Build Product-Apim with Maven
       run: mvn clean install --file ../product-apim/pom.xml
       env:
-        PRODUCT_APIM_TESTS: apim-integration-tests-samples
-
-  build-segment-9:
-    runs-on: ubuntu-latest
-
-    steps:
-    - name: Checkout Product-APIM 2
-      uses: actions/checkout@v1
-      with: 
-        repository: malinthaprasan/product-apim
-        ref: refs/heads/master
-    - name: Build Product-Apim with Maven
-      run: mvn clean install --file ../product-apim/pom.xml
-      env:
-        PRODUCT_APIM_TESTS: apim-store-tests, apim-integration-tests-graphql
-        
-  build-segment-11:
-    runs-on: ubuntu-latest
-
-    steps:
-    - name: Checkout Product-APIM 2
-      uses: actions/checkout@v1
-      with: 
-        repository: malinthaprasan/product-apim
-        ref: refs/heads/master
-    - name: Build Product-Apim with Maven
-      run: mvn clean install --file ../product-apim/pom.xml
-      env:
-        PRODUCT_APIM_TESTS: rest-api-tests,apim-mediation-tests
-
+        PRODUCT_APIM_TESTS: apim-integration-tests-samples,apim-store-tests, apim-integration-tests-graphql
+      
   build-segment-13:
     runs-on: ubuntu-latest
 
@@ -181,18 +153,4 @@ jobs:
     - name: Build Product-Apim with Maven
       run: mvn clean install --file ../product-apim/pom.xml
       env:
-        PRODUCT_APIM_TESTS: apim-integration-tests-external-idp
-
-  build-segment-19:
-    runs-on: ubuntu-latest
-
-    steps:
-    - name: Checkout Product-APIM 2
-      uses: actions/checkout@v1
-      with: 
-        repository: malinthaprasan/product-apim
-        ref: refs/heads/master
-    - name: Build Product-Apim with Maven
-      run: mvn clean install --file ../product-apim/pom.xml
-      env:
-        PRODUCT_APIM_TESTS: apim-integration-emailusername-login,apim-integration-tests-workflow
+        PRODUCT_APIM_TESTS: apim-integration-tests-external-idp,apim-integration-emailusername-login,apim-integration-tests-workflow

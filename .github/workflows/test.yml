@@ -20,5 +20,5 @@ jobs:
         repository: bhathiya/produt-apim
         ref: refs/heads/master
     - name: Build Product-Apim with Maven
-      if: always  && steps.checkout_product_2.outcome=='success'
+      if: always() && steps.checkout_product_2.outcome=='success'
       run: mvn clean install --file ../product-apim/pom.xml -Dmaven.test.skip=true

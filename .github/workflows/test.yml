@@ -1,0 +1,18 @@
+name: API Manager Build with Test
+
+on: [push]
+
+jobs:
+  build-without-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Product-APIM 1
+      id: checkout_product
+      uses: actions/checkout@v1
+      with: 
+        repository: bhathiya/prodct-apim
+        ref: refs/heads/master
+    - name: Build Product-Apim with Maven
+      run: mvn clean install --file ../product-apim/pom.xml -Dmaven.test.skip=true
+      if: always()

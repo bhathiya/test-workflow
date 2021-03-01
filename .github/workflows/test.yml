@@ -17,7 +17,7 @@ jobs:
       id: checkout_prouct_2
       uses: actions/checkout@v1
       with: 
-        repository: bhathiya/product-apim
+        repository: bhathiya/produt-apim
         ref: refs/heads/master
     - name: Build Product-Apim with Maven
       if: steps.checkout_product_2.outcome=='failure'

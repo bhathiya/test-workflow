@@ -11,8 +11,14 @@ jobs:
       id: checkout_product
       uses: actions/checkout@v1
       with: 
+        repository: bhathiya/product-apim
+        ref: refs/heads/master
+    - name: Checkout Product-APIM 
+      id: checkout_product_2
+      uses: actions/checkout@v1
+      with: 
         repository: bhathiya/prodct-apim
         ref: refs/heads/master
     - name: Build Product-Apim with Maven
+      if: steps.checkout_product.outcome=='success'
       run: mvn clean install --file ../product-apim/pom.xml -Dmaven.test.skip=true
-      if: always()
